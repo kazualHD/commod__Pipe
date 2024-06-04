@@ -261,9 +261,6 @@
         top: 133px
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
 
 @media (min-width: 360px) and (max-width: 991px) {
     .faq__banner {
@@ -469,7 +466,10 @@
     }
 }
 
-@media (min-width: 991px) and (max-width: 1200px) {
+@media (min-width: 990px) and (max-width: 1200px) {
+    ._container {
+        max-width: 970px;
+    }
     .nav__list {
         gap: 30px;
         margin-right: 15px;
